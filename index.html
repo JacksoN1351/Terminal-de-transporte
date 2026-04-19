@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>TERMINAL DE TRANSPORTE DE PUERTO ASÍS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body id="top">
+
+    <header>
+        <img src="img/logo.png" alt="Logo Terminal Puerto Asís" class="logo">
+        <h1>TERMINAL DE TRANSPORTE PUERTO ASÍS</h1>
+        <p>Conectando el Putumayo con toda Colombia</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#rutas">Buscar Tiquetes</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#destinos">Destinos</a></li>
+            <li><a href="#Vehículos">Vehículos</a></li>
+            <li><a href="#Empresas">Empresas</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section id="rutas" class="seccion-principal">
+        <h2>BUSCADOR DE RUTAS</h2>
+        <div class="buscador-caja">
+            <p>Escriba su destino para ver horarios y precios disponibles:</p>
+            <div class="controles-busqueda">
+                <input type="text" class="destino-entrada" placeholder="Ej: BOGOTA, CALI, PASTO...">
+                <button class="btn-buscar">Consultar Disponibilidad</button>
+            </div>
+        </div>
+        <div id="listaResultados" class="contenedor-resultados">
+            <p style="color: #666; font-style: italic; text-align: center;">Los resultados de su búsqueda aparecerán aquí...</p>
+        </div>
+    </section>
+
+    <section id="comprados">
+        <h2>PRE-RESERVA EN ESTADO PENDIENTE</h2>
+        <div id="listaCompradas" class="contenedor-comprados"></div>
+    </section>
+
+    <section id="nosotros">
+        <h2>¿QUIÉNES SOMOS?</h2>
+        <p>En la Terminal de Transportes de Puerto Asís, somos el corazón de la movilidad en el Putumayo y el principal puente de conexión entre nuestra región y el resto de Colombia.
+            Con una trayectoria basada en el compromiso y la seguridad, trabajamos de la mano con las empresas transportistas más importantes del país para garantizar que cada viajero 
+            disfrute de una experiencia cómoda, puntual y eficiente. Más que una infraestructura, somos el punto de partida de grandes sueños y el escenario de los reencuentros familiares
+            más esperados; un equipo humano dedicado las 24 horas a facilitar el progreso de nuestra comunidad a través de un servicio de transporte terrestre con altos estándares de calidad y calidez humana.</p>
+    </section>
+
+    <section id="destinos">
+        <h2>NUESTROS DESTINOS</h2>
+        <div class="grid-destinos-limpio">
+            <div class="destino-item"><img src="img/fotobogota.jpg" alt="Bogotá"><p>BOGOTÁ</p></div>
+            <div class="destino-item"><img src="img/fotocali.jpg" alt="Cali"><p>CALI</p></div>
+            <div class="destino-item"><img src="img/fotopasto.jpg" alt="Pasto"><p>PASTO</p></div>
+            <div class="destino-item"><img src="img/fotomocoa.jpeg" alt="Mocoa"><p>MOCOA</p></div>
+            <div class="destino-item"><img src="img/fotoneiva.jpg" alt="Neiva"><p>NEIVA</p></div>
+            <div class="destino-item"><img src="img/fotopitalito.jpg" alt="Pitalito"><p>PITALITO</p></div>
+            <div class="destino-item"><img src="img/fotoflorencia.jpg" alt="Florencia"><p>FLORENCIA</p></div>
+            <div class="destino-item"><img src="img/fotoibague.jpg" alt="Ibagué"><p>IBAGUÉ</p></div>
+            <div class="destino-item"><img src="img/fotoorito.jpg" alt="Orito"><p>ORITO</p></div>
+            <div class="destino-item"><img src="img/fotohormiga.jpg" alt="La Hormiga"><p>HORMIGA</p></div>
+            <div class="destino-item"><img src="img/fotosibundoy.jpg" alt="Sibundoy"><p>SIBUNDOY</p></div>
+            <div class="destino-item"><img src="img/fotovillagarzon.jpeg" alt="Villagarzón"><p>VILLAGARZÓN</p></div>
+        </div>
+        <div class="contenedor-btn-inicio">
+            <a href="#top" class="btn-inicio">Ir al Inicio ▲</a>
+        </div>
+    </section>
+
+    <section id="Vehículos">
+        <h2>NUESTROS VEHÍCULOS</h2>
+        <div class="grid-vehiculos-empresas">
+            <div class="destino-item"><img src="img/busheliconia.jpeg" alt="Bus Heliconia"><p>Bus Heliconia</p></div>
+            <div class="destino-item"><img src="img/buseta.jpg" alt="Buseta"><p>Buseta</p></div>
+            <div class="destino-item"><img src="img/aerobanssprinter.jpeg" alt="Aerovan"><p>Aerovan Sprinter</p></div>
+            <div class="destino-item"><img src="img/camioneta.jpg" alt="Camioneta"><p>Camioneta</p></div>
+            <div class="destino-item"><img src="img/gacela.png" alt="Gacela"><p>Gacela</p></div>
+            <div class="destino-item"><img src="img/taxi.jpg" alt="Taxi"><p>Taxi Intermunicipal</p></div>
+        </div>
+        <div class="contenedor-btn-inicio">
+            <a href="#top" class="btn-inicio">Ir al Inicio ▲</a>
+        </div>
+    </section>
+
+    <section id="Empresas">
+        <h2>NUESTRAS EMPRESAS</h2>
+        <div class="grid-vehiculos-empresas">
+            <div class="destino-item"><img src="img/cootransmayo.jpg" alt="Cootransmayo"><p>Cootransmayo</p></div>
+            <div class="destino-item"><img src="img/coomotor.jpg" alt="Coomotor"><p>Coomotor</p></div>
+            <div class="destino-item"><img src="img/cootranshuila.jpg" alt="Cootranshuila"><p>Cootranshuila</p></div>
+            <div class="destino-item"><img src="img/transipiales.jpeg" alt="Transipiales"><p>Transipiales</p></div>
+        </div>
+        <div class="contenedor-btn-inicio">
+            <a href="#top" class="btn-inicio">Ir al Inicio ▲</a>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>CONTACTO</h2>
+        <div class="info-contacto">
+            <p><strong>Dirección:</strong> Cra. 19 #11-33 Puerto Asís, Putumayo</p>
+            <p><strong>Whatsapp:</strong> 320 934 8389</p>
+            <p><strong>Email:</strong> terminalpuertoasis@gmail.com</p>
+        </div>
+    </section>
+
+<footer>
+    <p>&copy; 2026 Terminal de Transporte de Puerto Asís.</p>
+    <p style="font-size: 0.8rem; opacity: 0.8;">Diseñado para el desarrollo del Putumayo.</p>
+</footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
